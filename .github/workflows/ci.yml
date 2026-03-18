@@ -32,7 +32,7 @@ jobs:
 
       - name: Build Docker Image
         run: docker build -t myapp .
-
+        
   # 3. Push to Docker Hub
   push_image:
     runs-on: ubuntu-latest
