@@ -51,4 +51,4 @@ jobs:
       - name: Build and Push Image
         run: |
           docker build -t ${{ vars.DOCKER_USERNAME }}/myapp .
-          docker push ${{ secrets.DOCKER_USERNAME }}/myapp
+          docker push ${{ vars.DOCKER_USERNAME }}/myapp
